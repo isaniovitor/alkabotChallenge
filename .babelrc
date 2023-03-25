@@ -1,0 +1,17 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    ["babel-plugin-styled-components", {
+      "displayName": true,
+      "fileName": true
+    }],
+    ["babel-plugin-root-import",
+        {
+          "rootPathPrefix": "~",
+          "rootPathSuffix": "src"
+    }],
+    "babel-plugin-jsx-control-statements",
+    "babel-plugin-transform-react-remove-prop-types",
+    ["import", { "libraryName": "antd", "style": "css" }]
+  ]
+}
