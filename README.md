@@ -34,11 +34,6 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
-<div align="center">
-   <img src="src/assets/desktop.png" alt="Logo" width="200" height="360">
-   <img src="src/assets/mobile.png" alt="Logo" width="200" height="360">
-</div>
-
 Projeto realizado para o desafio técnico solicitado.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -78,9 +73,9 @@ Aqui estão algumas das ferramentas que utilizei na construção da aplicação:
 - [x] Posts and comments
 
   <div align="center">
-    <img src="src/assets/desktop.png" alt="Logo" width="200" height="360">
-    <img src="src/assets/mobile.png" alt="Logo" width="200" height="360">
-    <img src="src/assets/comments.png" alt="Logo" width="200" height="360">
+    <img src="src/assets/desktop.png" alt="Logo">
+    <img src="src/assets/mobile.png" alt="Logo">
+    <img src="src/assets/comments.png" alt="Logo">
   </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
