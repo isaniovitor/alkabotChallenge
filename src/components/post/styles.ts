@@ -76,6 +76,7 @@ export const CommentSection = styled.div`
 
 export const CommentTitle = styled.h3`
   margin: 30px 0 0 0;
+  font-size: 16px;
   text-align: end;
   color: #6e767d;
   cursor: pointer;

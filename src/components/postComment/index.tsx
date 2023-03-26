@@ -1,7 +1,6 @@
-import * as S from './styles';
 import { PostCommentData } from '~/@types/postComment';
 import doguinho from '../../assets/doguinho.jpg';
-
+import * as S from './styles';
 
 interface PostCommentState {
   postComment: PostCommentData,

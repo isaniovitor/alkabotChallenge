@@ -1,13 +1,9 @@
-import {
-  createContext,
-  useCallback,
-  useContext,
-  useState,
-} from 'react';
+import { createContext, useCallback, useContext, useState} from 'react';
 // import { toast } from 'react-toastify';
-
 import type { PostData } from '../@types/post';
 import request from '../services/request';
+import doguinho from '../assets/doguinho.jpg';
+import reactLogo from '../assets/logo.png';
 
 interface PostContextState {
   getPosts(): void;
@@ -18,12 +14,14 @@ const PostContext = createContext<PostContextState>({} as PostContextState);
 
 function PostProvider({ children }: any) {
   const [posts, setPosts] = useState<PostData[] | []>([]);
+  const imagesArray = [doguinho, reactLogo];
 
   const getPosts = useCallback(async () => {
     try {
       const response = await request.get('posts');
       if (response.status >= 200 && response.status < 300) {
         response.data.map(async (post: PostData) => {
+          post.image = imagesArray[Math.floor(Math.random() * imagesArray.length)];
           post.comments = await getPostComments(post.id);
         })
 

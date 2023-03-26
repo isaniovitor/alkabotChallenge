@@ -7,7 +7,6 @@ export const CommentSection = styled.div`
   //  margin-top: 12px;
   margin: 10px 0px;
   border-bottom: 1px solid  #6e767d;
-
 `;
 
 export const UserProfile = styled.img`
@@ -39,6 +38,7 @@ export const CommentName = styled.p`
 `;
 
 export const CommentEmail = styled.p`
+  margin: 0;
   color: #6e767d;
 `;
 

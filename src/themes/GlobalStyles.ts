@@ -31,6 +31,7 @@ export const GlobalStyles = createGlobalStyle`
     background-color: #000000;
   }
   ol, ul {
+    padding: 0;
     list-style: none;
   }
   blockquote, q {
