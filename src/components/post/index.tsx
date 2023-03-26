@@ -3,7 +3,7 @@ import useRequestGet from '../../hooks/UseRequestGet';
 import { PostData } from '../../@types/post';
 import { UserData } from '../../@types/user';
 import { BASE_PATH } from '../../constants';
-import { PostCommentData } from '~/@types/postComment';
+import { PostCommentData } from '../../@types/postComment';
 import me from '../../assets/me.jpeg';
 import PostComment from '../postComment';
 import * as S from './styles';

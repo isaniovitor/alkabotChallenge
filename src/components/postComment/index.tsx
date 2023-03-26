@@ -1,4 +1,4 @@
-import { PostCommentData } from '~/@types/postComment';
+import { PostCommentData } from '../../@types/postComment';
 import doguinho from '../../assets/doguinho.jpg';
 import * as S from './styles';
 
