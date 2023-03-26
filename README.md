@@ -35,9 +35,8 @@
 ## Sobre o projeto
 
 <div align="center">
-   <img src="src/assets/home.png" alt="Logo" width="200" height="360">
-   <img src="src/assets/homeScreen.png" alt="Logo" width="200" height="360">
-   <img src="src/assets/searchFilm.png" alt="Logo" width="200" height="360">
+   <img src="src/assets/desktop.png" alt="Logo" width="200" height="360">
+   <img src="src/assets/mobile.png" alt="Logo" width="200" height="360">
 </div>
 
 Projeto realizado para o desafio técnico solicitado.
@@ -66,21 +65,22 @@ Aqui estão algumas das ferramentas que utilizei na construção da aplicação:
    ```sh
    npm install
    ```
-4. Inicie o projeto 
+4. Inicie o projeto
    ```js
    npm run dev
    ```
-   
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Funcionalidades
 
-- [x] Posts
+- [x] Posts and comments
 
   <div align="center">
-     <img src="src/assets/darkMode.png" alt="Logo" width="200" height="360">
-     <img src="src/assets/home.png" alt="Logo" width="200" height="360">
+    <img src="src/assets/desktop.png" alt="Logo" width="200" height="360">
+    <img src="src/assets/mobile.png" alt="Logo" width="200" height="360">
+    <img src="src/assets/comments.png" alt="Logo" width="200" height="360">
   </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
