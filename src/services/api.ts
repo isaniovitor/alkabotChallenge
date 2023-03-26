@@ -1,9 +1,8 @@
 import axios from 'axios';
-
-// const { REACT_APP_GATEWAY } = process.env;
+import { BASE_PATH } from '../constants';
 
 const api = axios.create({
-  baseURL: 'https://jsonplaceholder.typicode.com',
+  baseURL: BASE_PATH,
 });
 
 export default api;

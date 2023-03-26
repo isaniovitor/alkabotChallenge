@@ -1,7 +1,4 @@
-// import ReactDOM from "https://cdn.skypack.dev/react-dom@17.0.1";
 import { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
-import ReactPaginate from "react-paginate";
 import Post from "../post";
 import * as S from './styles';
 
@@ -53,12 +50,10 @@ function PaginatedItems({ itemsPerPage, items }: PaginatedItemsState) {
     <S.Container>
       <Items currentItems={currentItems} />
       <S.ReactPaginateComponent
-        //nextLabel="next >"
         onPageChange={handlePageClick}
         pageRangeDisplayed={3}
         marginPagesDisplayed={2}
         pageCount={pageCount}
-        //previousLabel="< previous"
         pageClassName="page-item"
         pageLinkClassName="page-link"
         previousClassName="page-item"
@@ -76,9 +71,3 @@ function PaginatedItems({ itemsPerPage, items }: PaginatedItemsState) {
 }
 
 export default PaginatedItems;
-
-// Add a <div id="container"> to your HTML to see the componend rendered.
-// ReactDOM.render(
-//   <PaginatedItems itemsPerPage={4} />,
-//   document.getElementById("container")
-// );

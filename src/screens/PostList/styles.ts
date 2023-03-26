@@ -6,26 +6,20 @@ export const PageWrapper = styled.div`
   align-items: center;
 
   width: 100%;
-  margin-top: 30px;
-  //background-color: red;
+  margin-top: 1.875rem;
 `;
 
 export const PostsList = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
 
   @media (min-width: 500px) {
     width: 70%;
   }
 
   @media (min-width: 1024px) {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: red; */
-
     width: 50%;
   }
 `;

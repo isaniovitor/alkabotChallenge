@@ -1,5 +1,4 @@
 import { createContext, useCallback, useContext, useState} from 'react';
-// import { toast } from 'react-toastify';
 import type { PostData } from '../@types/post';
 import request from '../services/request';
 import doguinho from '../assets/doguinho.jpg';

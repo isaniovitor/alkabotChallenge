@@ -8,14 +8,14 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   align-items: center;
-  gap: 30px;
+  gap: 1.875rem;
 `;
 
 export const Items = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
 `;
 
 export const ReactPaginateComponent = styled(ReactPaginate)`

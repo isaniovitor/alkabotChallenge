@@ -19,7 +19,6 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 100%;
     font: inherit;
     font-family: roboto, sans-serif;
-    //vertical-align: baseline;
   }
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure,

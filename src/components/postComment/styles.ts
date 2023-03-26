@@ -3,21 +3,19 @@ import styled from 'styled-components';
 export const CommentSection = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 5px;
-  //  margin-top: 12px;
-  margin: 10px 0px;
+  gap: 0.313rem;
+  margin: 0.625rem 0px;
   border-bottom: 1px solid  #6e767d;
 `;
 
 export const UserProfile = styled.img`
-width: 40px;
-height: 40px;
-border-radius: 50%;
-//margin-right: 12px;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
 `;
 
 export const CommentTitle = styled.h3`
-  margin: 30px 0 0 0;
+  margin: 1.875rem 0 0 0;
   text-align: end;
   color: #6e767d;
   cursor: pointer;
@@ -43,5 +41,5 @@ export const CommentEmail = styled.p`
 `;
 
 export const CommentBody = styled.p`
-  margin: 10px 0;
+  margin: 0.625rem 0;
 `;

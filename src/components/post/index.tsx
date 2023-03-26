@@ -4,7 +4,7 @@ import { PostData } from '../../@types/post';
 import { UserData } from '../../@types/user';
 import { BASE_PATH } from '../../constants';
 import { PostCommentData } from '~/@types/postComment';
-import doguinho from '../../assets/doguinho.jpg';
+import me from '../../assets/me.jpeg';
 import PostComment from '../postComment';
 import * as S from './styles';
 
@@ -34,20 +34,20 @@ function Post({ post }: PostContextState) {
 
   return (
       <S.PostContainer>
-        <div className='nam'>
+        <div>
         <S.PostContent>
-          <div  style={{display: "flex", alignItems:"center", alignContent: "center", gap: "10px"}}>
-              <S.UserProfile src={doguinho} alt="user profile" />
+          <S.PostHeader>
+              <S.UserProfile src={me} alt="user profile" />
               <div>
-                <div style={{display: "flex"}}>
+                <S.UserInfo>
                   <S.Name>{user?.name}&nbsp;</S.Name>
                   <S.Username>-&nbsp;@{user?.username}</S.Username>
-                </div>
+                </S.UserInfo>
                 <S.Title>{post.title}</S.Title>
             </div>
-          </div>
+          </S.PostHeader>
           <S.Body>{post.body}</S.Body>
-          <S.PostImage src={post.image} alt="user profile"/>
+          <S.PostImage src={post.image} alt="post image"/>
           <S.CommentTitle onClick={() => toggleComments()}>Comments</S.CommentTitle>
         </S.PostContent>
         </div>

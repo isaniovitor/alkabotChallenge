@@ -1,10 +1,7 @@
-import { useEffect, useState } from 'react';
-import { PostData } from '../../@types/post';
-import Post from '../../components/post';
-import * as S from './styles';
-import useRequestGet from '../../hooks/UseRequestGet';
+import { useEffect } from 'react';
 import PaginatedItems from '../../components/paginatedItems';
 import { usePost } from '../../contexts/PostContext';
+import * as S from './styles';
 
 function PostList() {
   const { getPosts, posts } = usePost();
@@ -16,10 +13,7 @@ function PostList() {
   return (
     <S.PageWrapper>
       <S.PostsList id='container'>
-          {posts.length != 0 && <PaginatedItems itemsPerPage={5} items={posts}/>}
-        {/* {posts.map((post: PostData) => (
-          <Post post={post} key={post.id}/>
-        ))} */}
+        {posts.length != 0 && <PaginatedItems itemsPerPage={5} items={posts}/>}
       </S.PostsList>
     </S.PageWrapper>
   );
